@@ -1,0 +1,44 @@
+.Card {
+    border: 3px solid gray;
+    background-color: #4c4c4c;
+    border-radius: 5%;
+    color: #f2f1f1;
+    min-width: 225px;
+    max-width: 100%;
+    width: auto;
+    height: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+
+    p {
+        margin: 0;
+        max-width: 179px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    div:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+
+    .TitleWrapper {
+        display: flex;
+        flex-direction: column;
+
+        .CardTitle {
+            font-size: 24px;
+        }
+
+        .CardSubTitle {
+            font-size: 16px;
+        }
+    }
+
+    .button {
+        width: auto;
+        height: 20px;
+    }
+
+}
